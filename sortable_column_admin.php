@@ -2,7 +2,7 @@
 
 	/*
 	============================================
-		WP COLONNES SECTEURS
+		WORDPRESS COLONNES SECTEURS
 	============================================
 	*/
 	add_filter('manage_edit-offre_emploi_columns', 'offre_emploi_column_register');
