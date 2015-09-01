@@ -9,7 +9,7 @@
 	add_filter('manage_edit-offre_emploi_sortable_columns', 'offre_emploi_column_register');
 	add_action('manage_offre_emploi_posts_custom_column', 'offre_emploi_column_display', 10, 2);
 
-	function offre_emploi_column_register( $columns ) {
+	function offre_emploi_column_register( $columns, $var = null ) {
 
 		$columns['secteur'] = __( 'secteur', 'kblt' );
     	$columns['contrat'] = __( 'contrat', 'kblt' );
